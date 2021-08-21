@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+    @WebSource: Coding By CodingNepal - youtube.com/codingnepal
+    @Date: 2021-8-21
+    @author: Lemonsoldout
+    @Description: 汉化 + 自定义
+-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>天气预报</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking BoxIcon for Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class='bx bx-left-arrow-alt'></i>天气预报</header>
+      <section class="input-part">
+        <p class="info-txt"></p>
+        <div class="content">
+          <input type="text" spellcheck="false" placeholder="城市英文名(暂不支持中文)" required>
+          <div class="separator"></div>
+          <button>获得当前城市</button>
+        </div>
+      </section>
+      <section class="weather-part">
+        <img src="" alt="Weather Icon">
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">_ _</div>
+        <div class="location">
+          <i class='bx bx-map'></i>
+          <span>_, _</span>
+        </div>
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class='bx bxs-thermometer'></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>体感温度</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class='bx bxs-droplet-half'></i>
+            <div class="details">
+              <span>_</span>
+              <p>湿度</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
