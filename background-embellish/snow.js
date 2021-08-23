@@ -1,9 +1,9 @@
 /*! 
     @webResource: Snowflakes | © 2021 Denis Seleznev | MIT License | https://github.com/hcodes/snowflakes/ 
-    @Date: 2021-08-21
-    @Author: Lemonsoldout
-    @Description: 页面背景飘雪花
-    @Notice: 
+    @date: 2021-08-21
+    @author: Lemonsoldout
+    @description: 页面背景飘雪花
+    @notice: 
     
     简易配置方法：
         指定页面需要添加 <script>Snowflakes();</script> 来调用雪花飘的方法
